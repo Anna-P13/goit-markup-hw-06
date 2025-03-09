@@ -418,28 +418,6 @@ button {
 
 }
 
-@media screen and (min-width:768px) {
-    .section {
-        max-width: 768px;
-        background-image: linear-gradient(to bottom,
-                rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)),
-            image-set(url(../images/HeroPl1x.jpg)1x, url(../images/HeroPl2x.jpg)2x);
-    }
-}
-
-@media screen and (min-width:1158px) {
-    .section {
-
-        max-width: 1158px;
-        background-image: linear-gradient(to bottom,
-                rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)),
-            image-set(url(../images/Hero1x.jpg)1x, url(../images/Hero2x.jpg)2x);
-    }
-}
-
-
 .effect {
     max-width: 216px;
     font-weight: 700;
@@ -449,9 +427,47 @@ button {
     text-align: center;
     color: #fff;
     margin-bottom: 72px;
+}
+
+@media screen and (min-width:768px) {
+    .section {
+
+        background-image: linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            image-set(url(../images/HeroPl1x.jpg)1x, url(../images/HeroPl2x.jpg)2x);
+    }
+
+    .effect {
+        max-width: 496px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 36px;
+        font-size: 56px;
+    }
 
 
 }
+
+@media screen and (min-width:1158px) {
+    .section {
+
+        max-width: 1440px;
+        background-image: linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            image-set(url(../images/Hero1x.jpg)1x, url(../images/Hero2x.jpg)2x);
+    }
+
+    .effect {
+        margin-bottom: 48px;
+    }
+}
+
+
 
 .hero-button {
     display: block;
@@ -486,3 +502,5 @@ button:focus {
     background: #404bbf;
 
 }
+
+/* section two */
