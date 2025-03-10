@@ -744,3 +744,30 @@ button:focus {
     }
 
 }
+
+
+/* Our Portfolio */
+
+.images-block-two {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.new-section {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-align: center;
+    margin-bottom: 72px;
+}
+
+.box {
+    position: relative;
+    width: 360px;
+    height: 300px;
+
+    overflow: hidden;
+}
