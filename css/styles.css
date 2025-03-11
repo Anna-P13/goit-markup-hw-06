@@ -1076,9 +1076,18 @@ button:focus {
 
     .footer-container {
         display: flex;
-        align-items: baseline;
-        justify-content: flex-start;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 0;
+    }
 
+    .footer-icon-link:hover,
+    .footer-icon-link:focus {
+        background-color: #31D0AA;
+        transition-property: background-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .end-page {
@@ -1091,5 +1100,16 @@ button:focus {
 
     .footer-icons {
         margin-right: 80px;
+    }
+
+    .input-email {
+        width: 264px;
+    }
+
+    .webstudio-end,
+    .footer-par,
+    .subscribe {
+        margin-left: 0;
+        margin-right: 0;
     }
 }
