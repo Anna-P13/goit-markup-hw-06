@@ -1047,7 +1047,6 @@ button:focus {
 
 @media screen and (min-width: 768px) {
     .footer-container {
-        column-gap: 24px;
         justify-content: flex-start;
         display: flex;
         flex-direction: row;
@@ -1071,4 +1070,23 @@ button:focus {
         gap: 24px;
     }
 
+}
+
+@media screen and (min-width: 1158px) {
+
+    .footer-container {
+        gap: 0;
+    }
+
+    .end-page {
+        padding-left: 0;
+    }
+
+    .footer-logo-par {
+        margin-right: 120px;
+    }
+
+    .footer-icons {
+        margin-right: 80px;
+    }
 }
