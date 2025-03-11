@@ -940,7 +940,6 @@ button:focus {
     width: 208px;
     height: 80px;
     gap: 16px;
-    /* margin-right: 80px; */
 }
 
 .footer-par {
@@ -990,4 +989,86 @@ button:focus {
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 75px;
+}
+
+.input-email {
+    width: 288px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    border-radius: 4px;
+    color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    margin-bottom: 16px;
+
+}
+
+.input-email::placeholder {
+    color: #ffffff;
+}
+
+.footer-icon-button {
+    border-radius: 4px;
+    padding: 8px 24px;
+    min-width: 165px;
+    height: 40px;
+    background: #4d5ae5;
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    line-height: 1.5;
+    margin: 0 auto;
+}
+
+.svg-send {
+    margin-left: 16px;
+    fill: #fff;
+}
+
+@media screen and (min-width: 768px) {
+    .footer-container {
+        column-gap: 24px;
+        justify-content: flex-start;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 72px 24px;
+        margin: 0 auto;
+    }
+
+    .end-page {
+        padding-left: 108px;
+    }
+
+    .footer-par,
+    .webstudio-end,
+    .subscribe {
+        margin-left: 0;
+    }
+
+    .form-sub {
+        display: flex;
+        gap: 24px;
+    }
+
 }
